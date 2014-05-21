@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+	    Copyright 2014 Simon Bourgarel
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+ -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Table declaration -->
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:layout_marginTop="20dp" >
+
+        <!-- First line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_empty_cell"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_A"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_B"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_C"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_D"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_E"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_F"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_G"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_H"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_I"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Second line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_1"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A1"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A2"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A3"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A4"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A5"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A6"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A7"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A8"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/A9"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Third line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_2"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B1"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B2"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B3"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B4"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B5"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B6"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B7"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B8"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/B9"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Fourth line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_3"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C1"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C2"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C3"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C4"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C5"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C6"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C7"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C8"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/C9"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Fifth line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_4"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D1"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D2"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D3"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D4"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D5"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D6"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D7"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D8"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/D9"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Sixth line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_5"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E1"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E2"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E3"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E4"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E5"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E6"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E7"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E8"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/E9"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Seventh line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_6"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F1"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F2"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F3"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F4"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F5"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F6"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F7"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F8"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/F9"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Height line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_7"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G1"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G2"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G3"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G4"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G5"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G6"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G7"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G8"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/G9"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Nineth line -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_8"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H1"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H2"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H3"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H4"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H5"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H6"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H7"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H8"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/H9"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+        <!-- Déclaration de la tenth ligne du tableau. -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_margin="1dp"
+                android:background="#9999CC"
+                android:gravity="center"
+                android:text="@string/table_row_9"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I1"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I2"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I3"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I4"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I5"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I6"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I7"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I8"
+                android:layout_margin="1dp"
+                android:background="#CCFFFF"
+                android:gravity="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/I9"
+                android:layout_margin="1dp"
+                android:background="#99CCCC"
+                android:gravity="center"
+                android:textColor="#000000" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/tableCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/table"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/textview_activity_lock_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:text="@string/textview_activity_lock_password_text" />
+
+        <EditText
+            android:id="@+id/edittext_activity_lock_code_entered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:ems="5"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/button_activity_lock_validate_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ativity_lock_validate_password_text" />
+    </LinearLayout>
+  
+    <Button
+		android:id="@+id/button_activity_lock_help_show_password"
+		android:layout_width="fill_parent"
+		android:textAlignment="center"
+		android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+		android:text="@string/button_activity_lock_help_show_password_text" />
+    
+    <CheckBox
+        android:id="@+id/checkBox_activity_lock_new_coordinates"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_activity_lock_help_show_password"
+        android:checked="false"
+        android:text="@string/checkbox_activity_lock_new_coordinates_text" />
+  
+
+</RelativeLayout>

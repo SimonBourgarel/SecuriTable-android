@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--  
+	    Copyright 2014 Simon Bourgarel
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+   
+ -->
+
+<resources>
+
+    <string name="app_name">SecuriTable</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="title_activity_schoice">SChoiceActivity</string>
+    <string name="title_activity_slinear">SLinearActivity</string>
+    <string name="title_activity_s3nccells">S3NCCellsActivity</string>
+    <string name="title_activity_s4nccells">S4NCCellsActivity</string>
+    
+    <string name="CooD">Coordinate of the first cell:</string>
+    <string name="CooF">Coordinate of the last cell:</string>
+    <string name="Code">Code :</string>
+    <string name="Active">true</string>
+    <string name="table_row_1">1</string>
+    <string name="table_row_2">2</string>
+    <string name="table_row_3">3</string>
+    <string name="table_row_4">4</string>
+    <string name="table_row_5">5</string>
+    <string name="table_row_6">6</string>
+    <string name="table_row_7">7</string>
+    <string name="table_row_8">8</string>
+    <string name="table_row_9">9</string>
+    <string name="table_row_A">A</string>
+    <string name="table_row_B">B</string>
+    <string name="table_row_C">C</string>
+    <string name="table_row_D">D</string>
+    <string name="table_row_E">E</string>
+    <string name="table_row_F">F</string>
+    <string name="table_row_G">G</string>
+    <string name="table_row_H">H</string>
+    <string name="table_row_I">I</string>
+    <string name="table_empty_cell"> </string>
+    
+    <string name="checkbox_activity_lock_new_coordinates_text">New Coordinates</string>
+    <string name="button_ativity_lock_validate_password_text">OK</string>
+    <string name="button_activity_lock_help_show_password_text">Need help ? show password generated</string>
+    <string name="button_submit_text">Submit</string>
+    <string name="button_exit_text">Exit</string>
+    
+    
+    <string name="textview_activity_ncc_first_password_cell_text">First cell:</string>
+    <string name="textview_activity_ncc_second_password_cell_text">Second cell:</string>
+    <string name="textview_activity_ncc_third_password_cell_text">Third cell:</string>
+    <string name="textview_activity_ncc_fourth_password_cell_text">fourth cell:</string>
+    <string name="textview_activity_lock_password_text">Password:</string>
+    
+    <string name="button_activity_schoice_rules_text">Rules</string>
+    <string name="button_activity_schoice_linear_text">Linear password</string>
+    <string name="button_activity_schoice_3ncc_text">Password with 3 non consecutive cells</string>
+    <string name="button_activity_schoice_4ncc_text">Password with 4 non consecutive cells</string>
+    <string name="button_activity_schoice_cancel_text">Cancel</string>
+    
+    
+    
+    
+	
+    <string-array name="Abscissas">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+    </string-array>
+    <string-array name="Ordinates">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
+</resources>
